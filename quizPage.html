@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="quizPage.css">
+</head>
+<body onload="onPageLoad()">
+    <div class="outer_box">
+        <br><br>
+    <div class="heading1" id="heading">JavaScript Quiz</div> 
+    <hr>
+    <div class="question_div" id="question">
+    </div>
+    <div class="answer_div" id="ans_div"> 
+        <button id="button1">Choice 1</button>
+        <button id="button2">Choice 2</button>
+        <br><br>
+        <button id="button3">Choice 3</button>
+        <button id="button4">Choice 4</button>
+    </div>
+    <div class="index_div" id="index">Question <label id="x"></label> of <label id="y"></label></div>
+    <div class="result_div" id="result">Your Score is <label id="score"></label> out of <label id="totalScore"></label>. 
+        Your have obtained <label id="percnt"></label>% Score.</div>
+    </div>
+
+    <script src="quizPage.js"></script>
+</body>
+</html>
